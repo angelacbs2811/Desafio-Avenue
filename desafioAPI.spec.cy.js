@@ -6,7 +6,7 @@ describe('Bateria de testes API', () => {
 
             method: 'GET',
 
-            url: `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=60c7a3a9d75d49106e23aa9ff714f5f4`,
+            url: `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={colocar key id aqui}`,
 
             failOnStatusCode: false,
 
@@ -26,7 +26,7 @@ describe('Bateria de testes API', () => {
     
                 method: 'GET',
     
-                url: `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=60c7a3a9d75d49106e23aa9ff714f5f4`,
+                url: `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={colocar key id aqui}`,
     
                 failOnStatusCode: false,
     
@@ -46,7 +46,7 @@ describe('Bateria de testes API', () => {
         
                     method: 'GET',
         
-                    url: `https://api.openweathermap.org/data/2.5/weather?lat=4p.34&lon=10.99&appid=60c7a3a9d75d49106e23aa9ff714f5f4`,
+                    url: `https://api.openweathermap.org/data/2.5/weather?lat=4p.34&lon=10.99&appid={colocar key id aqui}`,
         
                     failOnStatusCode: false,
         
@@ -63,7 +63,7 @@ describe('Bateria de testes API', () => {
 
             method: 'GET',
 
-            url: `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.p9&appid=60c7a3a9d75d49106e23aa9ff714f5f4`,
+            url: `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.p9&appid={colocar key id aqui}`,
 
             failOnStatusCode: false,
 
@@ -82,7 +82,7 @@ describe('Bateria de testes API', () => {
 
             method: 'GET',
 
-            url: `https://api.openweathermap.org/data/2.5/weather?lat=4p.34&lon=10.99&appid=teste`,
+            url: `https://api.openweathermap.org/data/2.5/weather?lat=4p.34&lon=10.99&appid={colocar key id aqui}`,
 
             failOnStatusCode: false,
 
@@ -100,7 +100,7 @@ describe('Bateria de testes API', () => {
 
             method: 'GET',
 
-            url: `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=60c7a3a9d75d49106e23aa9ff714f5f4`,
+            url: `https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid={colocar key id aqui}`,
 
             failOnStatusCode: false,
 
